@@ -1,2 +1,1 @@
-## Repository for my [personal website](https://zondazx.github.io)
-
+## Repository of my [personal website](https://zondazx.github.io)
