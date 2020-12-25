@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  --grey-100: #e4e9f0;
+  --grey-200: #cfd7e3;
+  --grey-300: #b5c0cd;
+  --grey-800: #3e4e63;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'Rubik';
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  margin: 3rem 0 0 5rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 5rem;
+  margin: 18px 0 0 0;
+}
+
+.author {
+  margin: 1rem 0 0 0;
+}
+
+.content {
+  font-size: 1.4rem;
+  width: 50%;
+  word-wrap: break-word;
+  line-height: 2;
+}
+
+.content a {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+  border-color: transparent;
+  transition: 500ms border-color;
+}
+
+.content a:hover {
+  border-bottom: 2px solid #1a1919b9;
+}
+
+em {
+  font-weight: bold;
+}
+
+.banner {
+  position: absolute;
+  right: 80px;
+  top: 140px;
+  border-radius: 15px;
+
+  width: 500px;
+  height: 500px;
+}
+
+.external-link {
+  width: 16px;
+  height: 16px;
+  display: inline;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 0.7rem;
+  border: 0.1rem solid var(--grey-300);
+  border-radius: 0.15rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--black);
+  text-align: center;
+  background-color: var(--white);
+  outline: none;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.button:hover {
+  border: 0.1rem solid var(--grey-800);
+  color: var(--white);
+}
+
+.disabled-button {
+  cursor: default;
+  color: var(--grey-300);
+}
+
+.disabled-button:hover {
+  color: var(--grey-300);
+  background-color: var(--white);
+}
+
+.contact {
+  width: 24px;
+  height: 24px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 2s steps(50, end), blink .75s infinite;
+  white-space: nowrap;
+  border-right: 3px solid var(--black);
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+  from { 
+    width: 0% 
+  }
+  to { 
+    width: 35% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+    border-color: transparent 
+  }
+  35% { 
+    border-color: var(--black); 
+  }
+}
