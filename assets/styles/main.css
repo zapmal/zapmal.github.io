@@ -150,3 +150,13 @@ footer {
     border-color: var(--black); 
   }
 }
+
+@media all and (max-width: 800px) {
+  * {
+    font-size: 13px;
+  }
+
+  .banner {
+    display: none;
+  }
+}
