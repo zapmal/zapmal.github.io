@@ -16,6 +16,7 @@
 
 body {
   font-family: 'Rubik';
+  font-size: 14px;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -42,7 +43,7 @@ header {
 }
 
 .content {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   width: 50%;
   word-wrap: break-word;
   line-height: 2;
@@ -67,11 +68,11 @@ em {
 .banner {
   position: absolute;
   right: 80px;
-  top: 140px;
+  top: 125px;
   border-radius: 15px;
 
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
 }
 
 .external-link {
