@@ -20,7 +20,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  margin: 3rem 0 0 5rem;
+  margin: 1.5rem 0 0 5rem;
 }
 
 img {
@@ -43,10 +43,11 @@ header {
 }
 
 .content {
-  font-size: 1.1rem;
-  width: 50%;
+  font-size: 1.2rem;
+  width: 43%;
   word-wrap: break-word;
   line-height: 2;
+  margin: 15px 0;
 }
 
 .content a {
@@ -61,14 +62,10 @@ header {
   border-bottom: 2px solid #1a1919b9;
 }
 
-em {
-  font-weight: bold;
-}
-
 .banner {
   position: absolute;
-  right: 80px;
-  top: 95px;
+  right: 100px;
+  top: 135px;
   border-radius: 15px;
 
   width: 450px;
@@ -119,14 +116,12 @@ em {
 }
 
 footer {
-  margin-top: 100px;
   text-align: center;
 }
 
 .typewriter-text {
   display: inline-block;
   overflow: hidden;
-  letter-spacing: 2px;
   animation: typing 2s steps(50, end), blink .75s infinite;
   white-space: nowrap;
   border-right: 3px solid var(--black);
