@@ -149,10 +149,19 @@ footer {
 
 @media all and (max-width: 800px) {
   * {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .banner {
     display: none;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  footer {
+    margin-top: 10px;
+    margin-right: 60px;
   }
 }
