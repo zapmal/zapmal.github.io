@@ -1,6 +1,6 @@
 const title = document.querySelector('.header');
 const pressed = [];
-const secretCode = 'ameliabestgirl';
+const secretCode = 'pekopeko';
 
 window.addEventListener('keyup', e => {
   pressed.push(e.key);
