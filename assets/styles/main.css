@@ -33,6 +33,11 @@ header {
   font-weight: bold;
 }
 
+header .email {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .header {
   font-size: 5rem;
   margin: 18px 0 0 0;
@@ -42,9 +47,10 @@ header {
   margin: 1rem 0 0 0;
 }
 
+
 .content {
-  font-size: 1.2rem;
-  width: 43%;
+  font-size: 1.5rem;
+  width: 50%;
   word-wrap: break-word;
   line-height: 2;
   margin: 15px 0;
@@ -95,6 +101,10 @@ header {
   margin-left: 8px;
 }
 
+.buttons a:first-of-type {
+  margin-left: 0;
+}
+
 .button:hover {
   border: 0.1rem solid var(--grey-800);
   color: var(--white);
@@ -123,10 +133,9 @@ footer {
 .typewriter-text {
   display: inline-block;
   overflow: hidden;
-  animation: typing 2s steps(50, end), blink .75s infinite;
+  animation: typing 2s steps(60, end), blink .50s infinite;
   white-space: nowrap;
-  border-right: 3px solid var(--black);
-  box-sizing: border-box;
+  border-right: 2px solid var(--black);
 }
 
 @keyframes typing {
@@ -149,7 +158,7 @@ footer {
 
 @media all and (max-width: 800px) {
   * {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .banner {
